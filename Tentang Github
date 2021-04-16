@@ -1,0 +1,30 @@
+1. Commit di master 
+  - klik tombol pensil trus tulis judul perubahannya apa.
+ 
+2. Merge di master
+  - buat cabang dulu dari master
+  - bikin file yang masih jadi angan2
+  - kalau oke klik tombol yang terhighlight hijau di atas repo zal (pull-request)
+  - konfirmasi jika sudah tidak ada konflik
+  - kemudian jika berhasil maka di master akan ada file master yang dibranch
+  - file dari master akan berubah iya bener jadi baru semua
+  
+    > jika ada konflik merge
+      - biasanya terjadi jika ada 2 cabang yang mengerjakan 2 file yang sama zall
+      - jadi dari master itu dibuatin 2 cabang baru kan
+      - nah cabang baru ini mereka ngerjain file yang sama dari master
+      - setelah itu jika sudah merge nya harus satu per satu, gabisa bersamaan
+      - cabang 1 dengan master duluu, lalu hasilnya di merge lagi dengan cabang 2
+      - nah disitu biasanya terjadi konflik
+      - kita sebagai owner nya punya hak untuk nge pull request namun harus di resolved dulu
+      - <<<<<<<<<<< (tanda ini yang berarti tambahan dari perubahan)
+      - >>>>>>>>>>> (tanda ini yang berarti tulisan yang sudah ada di file master)
+  
+ 3. Fork
+  - menduplikat repo dari akun lain zal.
+  - klik aja fork di pojokkanan atas biasanya > kemudian repo secara otomatis akan terduplikat
+  - dari situ edit2 aja yang kamu perlu edit dan nanti pasti akan masuk ke commit lagi
+  - kamu bisa juga pull request (atau usulin perubahan dari kamu ke yang punya reponya zal)
+  - dibagian awal repo, diatas abu2 ada tulisan 2 commit from master branch, nah itu ada tombol pull request untuk memberitahu kita mau ngasih perubahannya
+  
+ 4. 
