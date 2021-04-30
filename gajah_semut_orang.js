@@ -16,15 +16,13 @@ while (tanya){
 
 	var pilihan_komp = Math.random();
 
-	if (pilihan_komp <= 0.34){
+	if (pilihan_komp >= 0.0 && pilihan_komp <0.12 || pilihan_komp >= 0.34 && pilihan_komp < 0.45 || pilihan_komp >= 0.78 && pilihan_komp < 0.89){
 		p_kom = "Gajah";
-	}else if(pilihan_komp > 0.34 && pilihan_komp <= 0.67){
+	}else if(pilihan_komp >= 0.12 && pilihan_komp < 0.23 || pilihan_komp >= 0.45 && pilihan_komp < 0.56 || pilihan_komp >= 0.89 && pilihan_komp < 1.0){
 		p_kom = "Semut";
-	}else{
+	}else if(pilihan_komp >= 0.23 && pilihan_komp < 0.34 || pilihan_komp >= 0.56 && pilihan_komp < 0.67){
 		p_kom = "Orang";
 	}
-	
-
 	
 	if (p_user == "Gajah" || p_user == "gajah" || p_user == "GAJAH"){
 		if(p_kom == "Gajah"){
@@ -36,7 +34,6 @@ while (tanya){
 				user=user;
 				komp+=1;
 			}else if(user>0){
-				user=user-1;
 				komp+=1;
 			}
 		}else if(p_kom == "Orang"){
@@ -45,7 +42,6 @@ while (tanya){
 				komp=komp;
 				user+=1;
 			}else if(komp>0){
-				komp=komp-1;
 				user+=1;
 			}
 		}
@@ -60,7 +56,6 @@ while (tanya){
 				user=user;
 				komp+=1;
 			}else if(user>0){
-				user=user-1;
 				komp+=1;
 			}
 		}else if(p_kom == "Gajah"){
@@ -69,7 +64,6 @@ while (tanya){
 				komp=komp;
 				user+=1;
 			}else if(komp>0){
-				komp=komp-1;
 				user+=1;
 			}
 		}
@@ -84,7 +78,6 @@ while (tanya){
 				user=user;
 				komp+=1;
 			}else if(user>0){
-				user=user-1;
 				komp+=1;
 			}
 		}else if(p_kom == "Semut"){
@@ -93,7 +86,6 @@ while (tanya){
 				komp=komp;
 				user+=1;
 			}else if(komp>0){
-				komp = komp - 1;
 				user+=1;
 			}
 		}
@@ -117,23 +109,3 @@ while (tanya){
 	}
 	
 }
-
-
-
-/*
-user=0;
-komp=0;
-var komp = parseInt(prompt());
-
-
-if (komp === 0){
-	komp=komp;
-	user+=1;
-}else if(komp>0){
-	komp = komp - 1;
-	user+=1;
-}
-
-alert(komp + " " + user)
-
-*/
