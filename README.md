@@ -6,3 +6,5 @@ __
    : Isinya adalah code HTML dan CSS yang aku gunain sebagai final submissionnya
 
 2. Mungkin nantinya akan ada code yang pernah aku buat selama belajar di Coursera juga
+
+3. Ada juga file program yang kadang aku buat kalau lagi gabut 
