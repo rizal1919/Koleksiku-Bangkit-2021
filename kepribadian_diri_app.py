@@ -18,7 +18,10 @@ print("----------------------\n")
 nama_pemain = input("Your name here: ")
 transisi_dan_klik()
 
-print("|     Hai {} what's up :)     |".format(nama_pemain))
+print("\n-------------------------------------------")
+print("|       Hai {} what's up :)     |".format(nama_pemain))
+print("-------------------------------------------\n")
+
 transisi_dan_klik()
 
 kelas_tanya=[] 
