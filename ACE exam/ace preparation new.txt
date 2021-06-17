@@ -1,0 +1,73 @@
+
+=========================================
+ What is Google Cloud or Cloud Computing
+=========================================
+- First, Computing resources on-demand and self service. We just operate the interface and we'll get the processing power, storage, and network we need
+- Second, We can access over internet from anywhere we are.
+- Third, The provider of those resources has a big pool of them and allocates them to customers out of that pool.
+  Allows provider to get economics of scale by buying in bulk and pass the savings on the customers
+  Customers dont have to know or care about the exact physical location of those resources
+- Fourth, the resources are elastic. If you need more resources you can get more, rapidly. If you need less, you can scale back.
+- Fifth, the customers pay only for what they use or reserve as they go. If they stop using resources, they stop paying.
+- Google Compute :
+	- Compute Engine
+	- Kubernetes Engine
+	- App Engine
+	- Cloud Function
+
+- Google Storage :
+	- Big Table
+	- Cloud Storage
+	- Cloud SQL
+	- Cloud Spanner 
+	- Cloud Datastore
+
+- Google Big Data :
+	- Big Query
+	- Pub/Sub
+	- Dataflow
+	- Dataproc
+	- Datalab
+
+- Google Machine Learning :
+	- Natural Languange API
+	- Vision API
+	- Machine Learning
+	- Speech API
+	- Translate API
+
+	
+
+============================
+ What is IaaS, PaaS, Saas?
+============================
+IaaS
+- Services provides underlying architecture to run servers.
+- The resources to run are provided but its up to users to managed the operating system and the application
+- Provide raw compute, storage, network organized
+- pay for what you allocates
+
+PaaS
+- Takes it one step further
+- the entire environment will managed for you the users
+- all we need to do just managed the application
+- the operating systems layer will be managed as a services
+- bind application code you write to libraries that give access to the infrastructure your application needs
+- we just focus on our application logic
+- pay for what you use
+
+Saas
+- The infrastructure, platform, and the software are managed for customers
+- All we need to do just bring data to the systems
+- Gmail, Docs, Search
+
+=============================
+ What are Regions and Zones?
+=============================
+- Zones are where we deployed our aplication or servers in gcp. 
+- Zones is not a google data center cause its not corresponding to one physical building
+- Zones are group of region
+- and the application that runs in zones within region can have a fast connection and low latency
+- region is individual geographic area
+
+
